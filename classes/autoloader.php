@@ -38,7 +38,7 @@ namespace your\project;
 			 
 			 // does the recursion for us. Nice.
 			 // note it assumes all your classes/folders are in 'classes'
-			 $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($classesFolder, \RecursiveDirectoryIterator::SKIP_DOTS));
+			 $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($this->classesFolder, \RecursiveDirectoryIterator::SKIP_DOTS));
 			 
 			 // iterate through dirs and files
              foreach ($files as $file) {
