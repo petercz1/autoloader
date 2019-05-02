@@ -15,6 +15,8 @@ Note: it assumes the following:
 
 Also I used [throwable](https://www.php.net/manual/en/class.throwable.php) from php7 in the catch() on line 53
 
+If you're using php 5.x 
+
 ## structure
 
 Looks as follows:
