@@ -18,7 +18,7 @@ Also I used [throwable](https://www.php.net/manual/en/class.throwable.php) from 
 If you're using php 5.x try something like
 
 ```
-catch(Error $ex){
+catch(Exception $ex){
     error_log($ex)
 }
 ```
