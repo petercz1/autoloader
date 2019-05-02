@@ -14,6 +14,7 @@ namespace your\project;
       */
      public function init()
      {
+		 echo 'loading autoloader...' . PHP_EOL;
          spl_autoload_register(array($this,'recursivelyFindClasses'));
      }
 	 
@@ -27,18 +28,20 @@ namespace your\project;
      private function recursivelyFindClasses(string $class): void
      {
          try {
-             // explode namespace and classname into array
+			 // explode namespace and classname into array
              $class = explode("\\", $class);
              // get last item (ie classname) and convert to lowercase
 			 $class = strtolower(end($class)) . '.php';
 			 
 			 // does the recursion for us. Nice.
+			 // note it assumes all your classes/folders are in 'classes'
 			 $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator('classes', \RecursiveDirectoryIterator::SKIP_DOTS));
 			 
 			 // iterate through dirs and files
              foreach ($files as $file) {
                  if (strtolower($file->getFilename())  == $class && $file->isReadable()) {
 					 // include the class
+					 echo $file->getPathname() . PHP_EOL;
 					 require_once $file->getPathname();
                  }
              }
