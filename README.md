@@ -19,7 +19,7 @@ If you're using php 5.x try
 
 ```
 catch(Error $ex){
-    
+    error_log($ex)
 }
 
 ## structure
