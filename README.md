@@ -13,6 +13,8 @@ Note: it assumes the following:
   * change this by altering line 10 `private $classesFolder = 'classes';`
 * no filename duplication, ie folder1/myclass.php and folder2/myclass.php won't work
 
+Also I used 
+
 ## structure
 
 Looks as follows:
