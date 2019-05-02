@@ -1,6 +1,6 @@
 # Simple PHP autoloader
 
-About as simple as it gets and still be useful.
+About as simple as it gets and still be useful. Uses 
 
 Note: it assumes the following:
 
