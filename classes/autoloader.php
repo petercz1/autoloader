@@ -37,7 +37,7 @@ namespace your\project;
              $class = strtolower(end($class)) . '.php';
              
              // does the recursion for us. Nice.
-             // note it assumes all your classes/folders are in 'classes' unless you changed it inline 10
+             // note it assumes all your classes/folders are in 'classes' unless you changed it in line 10
              $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($this->classesFolder, \RecursiveDirectoryIterator::SKIP_DOTS));
              
              // iterate through dirs and files
