@@ -22,7 +22,7 @@ catch(Error $ex){
     error_log($ex)
 }
 ```
-More help [here](https://www.php.net/manual/en/language.errors.php7.php)
+More help [here](https://www.php.net/manual/en/language.errors.php7.php).
 
 ## structure
 
