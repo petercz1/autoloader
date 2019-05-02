@@ -22,7 +22,7 @@ catch(Error $ex){
     error_log($ex)
 }
 ```
-
+More help [here]
 
 ## structure
 
