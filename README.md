@@ -1,7 +1,7 @@
 # Simple PHP autoloader
 
 About as simple as it gets and still be useful. Uses [spl_autoload_register
-]()
+](https://www.php.net/manual/en/function.spl-autoload-register.php)
 
 Note: it assumes the following:
 
