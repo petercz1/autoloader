@@ -49,7 +49,7 @@ namespace your\project;
                  }
              }
          } catch (\Throwable $th) {
-             // note: using php 7
+             // note: using php 7 Throwable
              error_log($th->getFile() . ': line ' . $th->getLine() . ', ' . $th->getMessage());
          }
      }
