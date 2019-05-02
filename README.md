@@ -3,6 +3,8 @@
 About as simple as it gets and still be useful. Uses [spl_autoload_register
 ](https://www.php.net/manual/en/function.spl-autoload-register.php)
 
+[](demo.gif)
+
 Note: it assumes the following:
 
 * one class per file
