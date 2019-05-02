@@ -6,4 +6,4 @@ Note: it assumes the following:
 
 * one class per file
 * filename is the same as the classname
-* 
+* no filename duplication, 
