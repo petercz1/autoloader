@@ -13,7 +13,7 @@ Note: it assumes the following:
   * change this by altering line 10 `private $classesFolder = 'classes';`
 * no filename duplication, ie folder1/myclass.php and folder2/myclass.php won't work
 
-Also I used [throwable](https://www.php.net/manual/en/class.throwable.php) from php7 in the catch
+Also I used [throwable](https://www.php.net/manual/en/class.throwable.php) from php7 in the catch() 
 
 ## structure
 
