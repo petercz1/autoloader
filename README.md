@@ -1,4 +1,5 @@
 # Simple PHP autoloader
+![](https://img.shields.io/badge/licence-free-green.svg) ![](https://img.shields.io/badge/frameworks-none-green.svg)
 
 About as simple as it gets and still be useful. Namespace friendly. Uses [spl_autoload_register
 ](https://www.php.net/manual/en/function.spl-autoload-register.php)
