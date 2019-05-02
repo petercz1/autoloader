@@ -6,7 +6,9 @@ namespace your\project;
  */
  class Autoloader
  {
+	 // modify as needed
 	 private $classesFolder = 'classes';
+
      /**
       * recursively scan files and autoload as necessary
       * WARNING: doesn't work with duplicate file names, eg folder1/index.php and folder2/index.php
@@ -36,7 +38,7 @@ namespace your\project;
 			 
 			 // does the recursion for us. Nice.
 			 // note it assumes all your classes/folders are in 'classes'
-			 $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator('classes', \RecursiveDirectoryIterator::SKIP_DOTS));
+			 $files = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator(, \RecursiveDirectoryIterator::SKIP_DOTS));
 			 
 			 // iterate through dirs and files
              foreach ($files as $file) {
