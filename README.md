@@ -45,4 +45,4 @@ Looks as follows:
 ├── index.php
 └── README.md
 ```
-Use as you like, ask questions if stuck, and stars are nice (top right)
+Use as you like, ask questions if stuck, and stars are nice (top right)...
