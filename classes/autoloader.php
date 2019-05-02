@@ -6,6 +6,7 @@ namespace your\project;
  */
  class Autoloader
  {
+	 
      /**
       * recursively scan files and autoload as necessary
       * WARNING: doesn't work with duplicate file names, eg folder1/index.php and folder2/index.php
